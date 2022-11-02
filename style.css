@@ -1,0 +1,33 @@
+img {
+  display: none;
+}
+div#header {
+  display: none;
+}
+
+div.logwrapper {
+  background-color: #0000;
+  border: none;
+  max-width: 500px;
+}
+div.logwrapper div .statuslog {
+  color: #0000;
+}
+div.logwrapper:hover {
+  background-color: white;
+  border: 1px solid #CCC;
+}
+div.logwrapper:hover div .statuslog {
+  color: #555;
+}
+
+div.controlwrapper {
+  max-width: 500px;
+}
+div.controlwrapper table {
+  display: none;
+}
+div.controlwrapper:hover table {
+  display: block;
+}
+
